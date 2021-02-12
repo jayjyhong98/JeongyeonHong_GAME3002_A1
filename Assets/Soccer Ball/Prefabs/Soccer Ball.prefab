@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 33935909779426952}
   - component: {fileID: 23737651838244920}
   - component: {fileID: 135134225773752490}
-  - component: {fileID: 6070945178344869563}
-  - component: {fileID: -5457588459796617465}
+  - component: {fileID: -4340725054215907748}
+  - component: {fileID: -7601986674692355372}
   m_Layer: 0
   m_Name: Soccer Ball
   m_TagString: Untagged
@@ -98,7 +98,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.11000001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6070945178344869563
+--- !u!114 &-4340725054215907748
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2109959c3a7096144a2c618a5403bfe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &-5457588459796617465
+--- !u!54 &-7601986674692355372
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

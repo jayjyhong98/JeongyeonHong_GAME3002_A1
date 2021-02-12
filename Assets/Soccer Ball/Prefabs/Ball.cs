@@ -5,6 +5,7 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     private Rigidbody m_rb = null;
+    public Player m_Player = null;
 
     // Start is called before the first frame update
     void Start()
@@ -26,5 +27,15 @@ public class Ball : MonoBehaviour
 
         //if (m_rb)
         m_rb.velocity = vVelocity;
+    }
+
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Goal" && m_Player)
+        {
+            m_Player.AddScore();
+
+            Destroy(gameObject);
+        }
     }
 }
